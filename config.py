@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = 20570569
-API_HASH = "297f0b9df1963ae949089ed1fba3d4c4"
-BOT_TOKEN = "7290175962:AAExUaFR48Ji2q9r_5c4ZdJv3egpZouqj2M"
+API_ID = 25971584
+API_HASH = "f49cbd86e5fd1701f580366c8a037995"
+BOT_TOKEN = "7435030995:AAFfJypDqV9_HiMbyj40dNlm5_RyU4omk4w"
 MONGO_DB_URI = ""
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOG_GROUP_ID = -1002213351151
-OWNER_ID = 6084045991
+LOG_GROUP_ID = -1002175959660
+OWNER_ID = 6852558228
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -29,8 +29,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("https://t.me/+vclslQZwhJczZGZl", "")
-SUPPORT_GROUP = getenv("https://t.me/+vclslQZwhJczZGZl", "")
+SUPPORT_CHANNEL = getenv("https://t.me/+iURvz2IGLZVlNTI1", "")
+SUPPORT_GROUP = getenv("https://t.me/+iURvz2IGLZVlNTI1", "")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
